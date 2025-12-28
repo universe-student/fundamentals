@@ -1,4 +1,7 @@
 {
   "hierarchy": "Hierarchy",
-  "redundancy": "Redundancy"
+  "redundancy": "Redundancy",
+  "noise": "Noise",
+  "bottlenecks": "Bottlenecks",
+  "margins": "Margins"
 }

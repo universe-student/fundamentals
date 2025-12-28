@@ -1,5 +1,8 @@
 {
   "inertia": "Inertia",
   "gravity": "Gravity",
-  "friction": "Friction"
+  "friction": "Friction",
+  "time": "Time",
+  "space": "Space",
+  "luck": "Luck"
 }
