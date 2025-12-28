@@ -16,6 +16,13 @@ export default {
       titleTemplate: '%s – Universe Student'
     }
   },
+  editLink: {
+    text: 'Edit this page'
+  },
+  feedback: {
+    content: 'Question? Give us feedback →',
+    labels: 'feedback'
+  },
   primaryHue: { light: 200, dark: 200 },
   sidebar: {
     defaultMenuCollapsed: true,
