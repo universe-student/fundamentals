@@ -1,5 +1,9 @@
 export default {
-  logo: <span>Elementary School of the Universe</span>,
+  logo: (
+    <span style={{ fontWeight: 800, letterSpacing: '-0.05em' }}>
+      ESU
+    </span>
+  ),
   project: {
     link: 'https://github.com/universe-student/fundamentals'
   },
