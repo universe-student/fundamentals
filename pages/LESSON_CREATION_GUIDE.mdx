@@ -14,24 +14,33 @@ We are not gurus on a mountain. We are students in the library.
 *   **Charismatic:** We speak with quiet confidence. We don't shout; we explain.
 
 ### 3. No Labels, No "Isms"
-We never mention or cite specific philosophies, religions, or "isms" (like Stoicism, Buddhism, or Capitalism).
+We never mention or cite specific philosophies, religions, or "isms."
 *   **Take the Wisdom:** We take the good parts and write them as our own shared rules.
-*   **No Criticism:** We never criticize or attack any philosophy or group. We stay neutral and focused on the mechanics of reality.
-*   **Why:** Labels divide people. Truth belongs to everyone. We want the wisdom to stand on its own without the baggage of a name.
+*   **No Criticism:** We never criticize or attack any philosophy or group. We stay neutral.
+*   **Why:** Labels divide people. Truth belongs to everyone.
 
 ### 4. The Invisible Flow (The 3 Paragraphs)
 Every lesson has three distinct parts, but **we do not label them**.
+
 *   **Part 1 (The Feeling):** Start with the struggle. "We often feel..."
 *   **Part 2 (The Truth):** Introduce the concept. "But nature tells us..."
-*   **Part 3 (The Move):** The practical application. Use the "Should" Bridge here (e.g., "So, we should...").
+*   **Part 3 (The Move):** The practical application. Use the "should" bridge here (e.g., "So, we should...").
 
 ### 5. The Soft Punch
 Every lesson needs a moment of realization—an "Aha!" moment.
 *   **Soft Punch:** "We often think we are tired, but really, we are just bored."
 
----
+### 6. Mandatory: The Footer Link
+We have removed the automatic sidebar link. Therefore, **every single lesson MUST end with this component.**
 
-### Check your work:
-*   Did I mention any philosophers or "isms" by name? (If yes, remove them).
-*   Is the tone humble and charismatic?
-*   Does the "should" bridge feel natural and un-bolded?
+At the top of the file:
+```mdx
+import EditLink from '../../components/EditLink'
+```
+
+At the very bottom of the file (after the text):
+```mdx
+<EditLink />
+```
+
+*Note: Check your folder depth to adjust the import path (`../../` or `../../../`).*
